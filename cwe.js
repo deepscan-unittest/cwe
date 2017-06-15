@@ -13,6 +13,11 @@
         var y = obj.x;
         console.log(y);
     }
+    function CWE_476ff() { // NULL_POINTER
+        var obj;
+        var y = obj.x;
+        console.log(y);
+    }
 
     function CWE_480() { // BAD_BITWISE_OPERATOR
         var obj = null;
